@@ -1,0 +1,99 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            az7yu1s35ywde8h131w8gw32vo20myig:
+                args:
+                    - --task=pointfoot_jump
+                codePath: legged_gym/scripts/train.py
+                codePathLocal: legged_gym/scripts/train.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "539978293248"
+                        used: "111244406784"
+                email: suyourice@gmail.com
+                executable: /opt/conda/envs/pointfoot_legged_gym/bin/python
+                gpu: NVIDIA GeForce RTX 4060 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 4352
+                      memoryTotal: "17175674880"
+                      name: NVIDIA GeForce RTX 4060 Ti
+                      uuid: GPU-0f3c7e6f-42d3-8d78-2a28-71fcf16cbea3
+                host: eafb1f9c8f9e
+                memory:
+                    total: "33569173504"
+                os: Linux-6.8.0-79-generic-x86_64-with-glibc2.17
+                program: legged_gym/scripts/train.py
+                python: CPython 3.8.20
+                root: /workspace/limx_rl/pointfoot-legged-gym/logs/jump
+                startedAt: "2025-09-09T11:54:09.302870Z"
+                username: suyourice-technical-university-of-munich
+                writerId: az7yu1s35ywde8h131w8gw32vo20myig
+        m: []
+        python_version: 3.8.20
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 61
+            "4": 3.8.20
+            "5": 0.21.3
+            "12": 0.21.3
+            "13": linux-x86_64
+alg_cfg:
+    value:
+        clip_param: 0.2
+        critic_take_latent: true
+        desired_kl: 0.01
+        entropy_coef: 0.01
+        est_learning_rate: 0.001
+        gamma: 0.99
+        lam: 0.95
+        learning_rate: 0.001
+        max_grad_norm: 1
+        num_learning_epochs: 5
+        num_mini_batches: 4
+        schedule: adaptive
+        ts_learning_rate: 0.0001
+        use_clipped_value_loss: true
+        value_loss_coef: 1
+env_cfg:
+    value: <legged_gym.envs.pointfoot_jump.pointfoot_jump_config.BipedCfgJump object at 0x780bab503e20>
+policy_cfg:
+    value:
+        activation: elu
+        actor_hidden_dims:
+            - 512
+            - 256
+            - 128
+        critic_hidden_dims:
+            - 512
+            - 256
+            - 128
+        init_noise_std: 1
+        orthogonal_init: false
+runner_cfg:
+    value:
+        algorithm_class_name: PPO
+        checkpoint: -1
+        encoder_class_name: MLP_Encoder
+        experiment_name: jump
+        exptid: ""
+        load_run: "-1"
+        logger: both
+        max_iterations: 15000
+        num_steps_per_env: 8
+        policy_class_name: ActorCritic
+        resume: false
+        resume_path: None
+        run_name: ""
+        save_interval: 500
+        wandb_project: IsaacGym_Tron

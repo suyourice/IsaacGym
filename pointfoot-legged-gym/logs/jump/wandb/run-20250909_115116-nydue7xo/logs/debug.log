@@ -1,0 +1,27 @@
+2025-09-09 11:51:16,468 INFO    MainThread:1659 [wandb_setup.py:_flush():81] Current SDK version is 0.21.3
+2025-09-09 11:51:16,469 INFO    MainThread:1659 [wandb_setup.py:_flush():81] Configure stats pid to 1659
+2025-09-09 11:51:16,469 INFO    MainThread:1659 [wandb_setup.py:_flush():81] Loading settings from /root/.config/wandb/settings
+2025-09-09 11:51:16,469 INFO    MainThread:1659 [wandb_setup.py:_flush():81] Loading settings from /workspace/limx_rl/pointfoot-legged-gym/wandb/settings
+2025-09-09 11:51:16,469 INFO    MainThread:1659 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-09 11:51:16,469 INFO    MainThread:1659 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /workspace/limx_rl/pointfoot-legged-gym/logs/jump/wandb/run-20250909_115116-nydue7xo/logs/debug.log
+2025-09-09 11:51:16,469 INFO    MainThread:1659 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /workspace/limx_rl/pointfoot-legged-gym/logs/jump/wandb/run-20250909_115116-nydue7xo/logs/debug-internal.log
+2025-09-09 11:51:16,469 INFO    MainThread:1659 [wandb_init.py:init():813] calling init triggers
+2025-09-09 11:51:16,469 INFO    MainThread:1659 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-09-09 11:51:16,469 INFO    MainThread:1659 [wandb_init.py:init():854] starting backend
+2025-09-09 11:51:16,724 INFO    MainThread:1659 [wandb_init.py:init():857] sending inform_init request
+2025-09-09 11:51:16,747 INFO    MainThread:1659 [wandb_init.py:init():865] backend started and connected
+2025-09-09 11:51:16,749 INFO    MainThread:1659 [wandb_init.py:init():936] updated telemetry
+2025-09-09 11:51:16,750 INFO    MainThread:1659 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-09 11:51:17,326 INFO    MainThread:1659 [wandb_init.py:init():1011] starting run threads in backend
+2025-09-09 11:51:17,373 INFO    MainThread:1659 [wandb_run.py:_console_start():2494] atexit reg
+2025-09-09 11:51:17,373 INFO    MainThread:1659 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-09-09 11:51:17,373 INFO    MainThread:1659 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-09-09 11:51:17,373 INFO    MainThread:1659 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-09-09 11:51:17,375 INFO    MainThread:1659 [wandb_init.py:init():1057] run started, returning control to user process
+2025-09-09 11:51:17,375 INFO    MainThread:1659 [wandb_run.py:_config_callback():1380] config_cb None None {'runner_cfg': {'algorithm_class_name': 'PPO', 'checkpoint': -1, 'encoder_class_name': 'MLP_Encoder', 'experiment_name': 'jump', 'exptid': '', 'load_run': '-1', 'logger': 'both', 'max_iterations': 15000, 'num_steps_per_env': 16, 'policy_class_name': 'ActorCritic', 'resume': False, 'resume_path': 'None', 'run_name': '', 'save_interval': 500, 'wandb_project': 'IsaacGym_Tron'}}
+2025-09-09 11:51:17,376 INFO    MainThread:1659 [wandb_run.py:_config_callback():1380] config_cb None None {'policy_cfg': {'activation': 'elu', 'actor_hidden_dims': [512, 256, 128], 'critic_hidden_dims': [512, 256, 128], 'init_noise_std': 1.0, 'orthogonal_init': False}}
+2025-09-09 11:51:17,376 INFO    MainThread:1659 [wandb_run.py:_config_callback():1380] config_cb None None {'alg_cfg': {'clip_param': 0.2, 'critic_take_latent': True, 'desired_kl': 0.01, 'entropy_coef': 0.01, 'est_learning_rate': 0.001, 'gamma': 0.99, 'lam': 0.95, 'learning_rate': 0.001, 'max_grad_norm': 1.0, 'num_learning_epochs': 5, 'num_mini_batches': 4, 'schedule': 'adaptive', 'ts_learning_rate': 0.0001, 'use_clipped_value_loss': True, 'value_loss_coef': 1.0}}
+2025-09-09 11:51:17,376 INFO    MainThread:1659 [wandb_run.py:_config_callback():1380] config_cb None None {'env_cfg': '<legged_gym.envs.pointfoot_jump.pointfoot_jump_config.BipedCfgJump object at 0x79a055e1fe20>'}
+2025-09-09 11:53:05,337 INFO    wandb-AsyncioManager-main:1659 [service_client.py:_forward_responses():84] Reached EOF.
+2025-09-09 11:53:05,337 INFO    wandb-AsyncioManager-main:1659 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

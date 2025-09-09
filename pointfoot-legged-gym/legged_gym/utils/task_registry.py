@@ -53,6 +53,10 @@ from .helpers import (
     parse_sim_params,
 )
 
+# YOU-RI
+from legged_gym.envs.pointfoot_jump.pointfoot_jump import BipedJump
+from legged_gym.envs.pointfoot_jump.pointfoot_jump_config import BipedCfgJump, BipedCfgPPOPF
+
 class TaskRegistry:
     def __init__(self):
         self.task_classes = {}
@@ -224,3 +228,11 @@ class TaskRegistry:
 
 # make global task registry
 task_registry = TaskRegistry()
+
+# YOU-RI
+task_registry.register(
+    "pointfoot_jump",
+    BipedJump,
+    BipedCfgJump(),
+    BipedCfgPPOPF(),
+)

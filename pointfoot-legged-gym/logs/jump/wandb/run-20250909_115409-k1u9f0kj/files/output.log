@@ -1,0 +1,1406 @@
+################################################################################
+                      [1m Learning iteration 0/15000 [0m
+
+                       Computation: 6606 steps/s (collection: 3.345s, learning 0.288s)
+               Value function loss: 0.0775
+                    Surrogate loss: 0.0218
+             Mean action noise std: 0.9970
+                     Learning rate: 0.0000
+                       Mean reward: -0.19
+               Mean episode length: 4.82
+                   rew_action_rate: -0.0004
+                 rew_action_smooth: -0.0010
+                    rew_ang_vel_xy: -0.0019
+                   rew_base_height: -0.0019
+                     rew_collision: 0.0000
+                       rew_dof_acc: -0.0002
+                rew_dof_pos_limits: -0.0000
+                 rew_feet_distance: -0.0005
+               rew_feet_regulation: -0.0226
+              rew_foot_landing_vel: -0.0006
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0052
+                     rew_lin_vel_z: -0.0004
+                   rew_orientation: -0.0019
+                       rew_torques: -0.0002
+              rew_tracking_ang_vel: 0.0011
+rew_tracking_contacts_shaped_force: -0.0024
+  rew_tracking_contacts_shaped_vel: -0.0043
+--------------------------------------------------------------------------------
+                   Total timesteps: 24000
+                    Iteration time: 3.63s
+                        Total time: 3.63s
+                               ETA: 54491.5s
+
+################################################################################
+                      [1m Learning iteration 1/15000 [0m
+
+                       Computation: 7040 steps/s (collection: 3.296s, learning 0.112s)
+               Value function loss: 0.2678
+                    Surrogate loss: -0.0009
+             Mean action noise std: 0.9957
+                     Learning rate: 0.0003
+                       Mean reward: -0.64
+               Mean episode length: 9.96
+                   rew_action_rate: -0.0014
+                 rew_action_smooth: -0.0039
+                    rew_ang_vel_xy: -0.0064
+                   rew_base_height: -0.0065
+                     rew_collision: -0.0003
+                       rew_dof_acc: -0.0004
+                rew_dof_pos_limits: -0.0000
+                 rew_feet_distance: -0.0029
+               rew_feet_regulation: -0.0179
+              rew_foot_landing_vel: -0.0007
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0134
+                     rew_lin_vel_z: -0.0018
+                   rew_orientation: -0.0160
+                       rew_torques: -0.0012
+              rew_tracking_ang_vel: 0.0031
+rew_tracking_contacts_shaped_force: -0.0082
+  rew_tracking_contacts_shaped_vel: -0.0075
+--------------------------------------------------------------------------------
+                   Total timesteps: 48000
+                    Iteration time: 3.41s
+                        Total time: 7.04s
+                               ETA: 52807.2s
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 1. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+
+################################################################################
+                      [1m Learning iteration 2/15000 [0m
+
+                       Computation: 7025 steps/s (collection: 3.307s, learning 0.109s)
+               Value function loss: 0.6262
+                    Surrogate loss: -0.0014
+             Mean action noise std: 0.9940
+                     Learning rate: 0.0009
+                       Mean reward: -1.27
+               Mean episode length: 14.34
+                   rew_action_rate: -0.0024
+                 rew_action_smooth: -0.0069
+                    rew_ang_vel_xy: -0.0113
+                   rew_base_height: -0.0147
+                     rew_collision: -0.0002
+                       rew_dof_acc: -0.0007
+                rew_dof_pos_limits: -0.0000
+                 rew_feet_distance: -0.0080
+               rew_feet_regulation: -0.0271
+              rew_foot_landing_vel: -0.0006
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0215
+                     rew_lin_vel_z: -0.0027
+                   rew_orientation: -0.0588
+                       rew_torques: -0.0026
+              rew_tracking_ang_vel: 0.0029
+rew_tracking_contacts_shaped_force: -0.0128
+  rew_tracking_contacts_shaped_vel: -0.0111
+--------------------------------------------------------------------------------
+                   Total timesteps: 72000
+                    Iteration time: 3.42s
+                        Total time: 10.46s
+                               ETA: 52281.6s
+
+################################################################################
+                      [1m Learning iteration 3/15000 [0m
+
+                       Computation: 6993 steps/s (collection: 3.300s, learning 0.132s)
+               Value function loss: 0.8509
+                    Surrogate loss: 0.0001
+             Mean action noise std: 0.9980
+                     Learning rate: 0.0019
+                       Mean reward: -1.87
+               Mean episode length: 17.33
+                   rew_action_rate: -0.0033
+                 rew_action_smooth: -0.0096
+                    rew_ang_vel_xy: -0.0188
+                   rew_base_height: -0.0287
+                     rew_collision: -0.0008
+                       rew_dof_acc: -0.0010
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0049
+               rew_feet_regulation: -0.0125
+              rew_foot_landing_vel: -0.0008
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0294
+                     rew_lin_vel_z: -0.0044
+                   rew_orientation: -0.1293
+                       rew_torques: -0.0030
+              rew_tracking_ang_vel: 0.0035
+rew_tracking_contacts_shaped_force: -0.0152
+  rew_tracking_contacts_shaped_vel: -0.0189
+--------------------------------------------------------------------------------
+                   Total timesteps: 96000
+                    Iteration time: 3.43s
+                        Total time: 13.89s
+                               ETA: 52075.1s
+
+################################################################################
+                      [1m Learning iteration 4/15000 [0m
+
+                       Computation: 6982 steps/s (collection: 3.312s, learning 0.126s)
+               Value function loss: 1.0721
+                    Surrogate loss: 0.0029
+             Mean action noise std: 1.0010
+                     Learning rate: 0.0066
+                       Mean reward: -3.65
+               Mean episode length: 24.68
+                   rew_action_rate: -0.0043
+                 rew_action_smooth: -0.0127
+                    rew_ang_vel_xy: -0.0233
+                   rew_base_height: -0.0480
+                     rew_collision: -0.0037
+                       rew_dof_acc: -0.0017
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0337
+               rew_feet_regulation: -0.0343
+              rew_foot_landing_vel: -0.0009
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0375
+                     rew_lin_vel_z: -0.0067
+                   rew_orientation: -0.2339
+                       rew_torques: -0.0028
+              rew_tracking_ang_vel: 0.0048
+rew_tracking_contacts_shaped_force: -0.0110
+  rew_tracking_contacts_shaped_vel: -0.0289
+--------------------------------------------------------------------------------
+                   Total timesteps: 120000
+                    Iteration time: 3.44s
+                        Total time: 17.33s
+                               ETA: 51966.5s
+
+################################################################################
+                      [1m Learning iteration 5/15000 [0m
+
+                       Computation: 7086 steps/s (collection: 3.291s, learning 0.095s)
+               Value function loss: 0.9831
+                    Surrogate loss: 0.0018
+             Mean action noise std: 1.0012
+                     Learning rate: 0.0066
+                       Mean reward: -10.29
+               Mean episode length: 47.95
+                   rew_action_rate: -0.0052
+                 rew_action_smooth: -0.0155
+                    rew_ang_vel_xy: -0.0255
+                   rew_base_height: -0.0692
+                     rew_collision: -0.0048
+                       rew_dof_acc: -0.0024
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0408
+               rew_feet_regulation: -0.0278
+              rew_foot_landing_vel: -0.0016
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0455
+                     rew_lin_vel_z: -0.0077
+                   rew_orientation: -0.3233
+                       rew_torques: -0.0031
+              rew_tracking_ang_vel: 0.0053
+rew_tracking_contacts_shaped_force: -0.0091
+  rew_tracking_contacts_shaped_vel: -0.0386
+--------------------------------------------------------------------------------
+                   Total timesteps: 144000
+                    Iteration time: 3.39s
+                        Total time: 20.71s
+                               ETA: 51766.3s
+
+################################################################################
+                      [1m Learning iteration 6/15000 [0m
+
+                       Computation: 6945 steps/s (collection: 3.311s, learning 0.144s)
+               Value function loss: 0.7226
+                    Surrogate loss: -0.0033
+             Mean action noise std: 1.0048
+                     Learning rate: 0.0100
+                       Mean reward: -12.02
+               Mean episode length: 56.00
+                   rew_action_rate: -0.0062
+                 rew_action_smooth: -0.0184
+                    rew_ang_vel_xy: -0.0248
+                   rew_base_height: -0.0792
+                     rew_collision: -0.0072
+                       rew_dof_acc: -0.0027
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0514
+               rew_feet_regulation: -0.0245
+              rew_foot_landing_vel: -0.0020
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0535
+                     rew_lin_vel_z: -0.0079
+                   rew_orientation: -0.3680
+                       rew_torques: -0.0041
+              rew_tracking_ang_vel: 0.0063
+rew_tracking_contacts_shaped_force: -0.0134
+  rew_tracking_contacts_shaped_vel: -0.0419
+--------------------------------------------------------------------------------
+                   Total timesteps: 168000
+                    Iteration time: 3.46s
+                        Total time: 24.17s
+                               ETA: 51769.8s
+
+################################################################################
+                      [1m Learning iteration 7/15000 [0m
+
+                       Computation: 7040 steps/s (collection: 3.291s, learning 0.118s)
+               Value function loss: 0.5094
+                    Surrogate loss: -0.0073
+             Mean action noise std: 0.9997
+                     Learning rate: 0.0100
+                       Mean reward: -12.91
+               Mean episode length: 63.14
+                   rew_action_rate: -0.0071
+                 rew_action_smooth: -0.0211
+                    rew_ang_vel_xy: -0.0260
+                   rew_base_height: -0.0877
+                     rew_collision: -0.0093
+                       rew_dof_acc: -0.0029
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0567
+               rew_feet_regulation: -0.0291
+              rew_foot_landing_vel: -0.0021
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0613
+                     rew_lin_vel_z: -0.0087
+                   rew_orientation: -0.4062
+                       rew_torques: -0.0052
+              rew_tracking_ang_vel: 0.0068
+rew_tracking_contacts_shaped_force: -0.0178
+  rew_tracking_contacts_shaped_vel: -0.0454
+--------------------------------------------------------------------------------
+                   Total timesteps: 192000
+                    Iteration time: 3.41s
+                        Total time: 27.58s
+                               ETA: 51683.8s
+
+################################################################################
+                      [1m Learning iteration 8/15000 [0m
+
+                       Computation: 7002 steps/s (collection: 3.304s, learning 0.123s)
+               Value function loss: 0.5380
+                    Surrogate loss: -0.0026
+             Mean action noise std: 1.0007
+                     Learning rate: 0.0100
+                       Mean reward: -15.00
+               Mean episode length: 71.04
+                   rew_action_rate: -0.0080
+                 rew_action_smooth: -0.0236
+                    rew_ang_vel_xy: -0.0274
+                   rew_base_height: -0.0966
+                     rew_collision: -0.0079
+                       rew_dof_acc: -0.0034
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0635
+               rew_feet_regulation: -0.0307
+              rew_foot_landing_vel: -0.0026
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0687
+                     rew_lin_vel_z: -0.0090
+                   rew_orientation: -0.4589
+                       rew_torques: -0.0056
+              rew_tracking_ang_vel: 0.0071
+rew_tracking_contacts_shaped_force: -0.0195
+  rew_tracking_contacts_shaped_vel: -0.0511
+--------------------------------------------------------------------------------
+                   Total timesteps: 216000
+                    Iteration time: 3.43s
+                        Total time: 31.00s
+                               ETA: 51647.0s
+
+################################################################################
+                      [1m Learning iteration 9/15000 [0m
+
+                       Computation: 6967 steps/s (collection: 3.323s, learning 0.121s)
+               Value function loss: 0.5581
+                    Surrogate loss: -0.0015
+             Mean action noise std: 0.9908
+                     Learning rate: 0.0100
+                       Mean reward: -15.32
+               Mean episode length: 74.57
+                   rew_action_rate: -0.0087
+                 rew_action_smooth: -0.0258
+                    rew_ang_vel_xy: -0.0287
+                   rew_base_height: -0.1038
+                     rew_collision: -0.0098
+                       rew_dof_acc: -0.0036
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0608
+               rew_feet_regulation: -0.0239
+              rew_foot_landing_vel: -0.0038
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0744
+                     rew_lin_vel_z: -0.0095
+                   rew_orientation: -0.4953
+                       rew_torques: -0.0060
+              rew_tracking_ang_vel: 0.0071
+rew_tracking_contacts_shaped_force: -0.0209
+  rew_tracking_contacts_shaped_vel: -0.0545
+--------------------------------------------------------------------------------
+                   Total timesteps: 240000
+                    Iteration time: 3.44s
+                        Total time: 34.45s
+                               ETA: 51642.6s
+
+################################################################################
+                     [1m Learning iteration 10/15000 [0m
+
+                       Computation: 7052 steps/s (collection: 3.285s, learning 0.118s)
+               Value function loss: 0.6447
+                    Surrogate loss: 0.0034
+             Mean action noise std: 0.9931
+                     Learning rate: 0.0009
+                       Mean reward: -15.77
+               Mean episode length: 73.96
+                   rew_action_rate: -0.0087
+                 rew_action_smooth: -0.0259
+                    rew_ang_vel_xy: -0.0309
+                   rew_base_height: -0.1067
+                     rew_collision: -0.0062
+                       rew_dof_acc: -0.0039
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0593
+               rew_feet_regulation: -0.0189
+              rew_foot_landing_vel: -0.0089
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0752
+                     rew_lin_vel_z: -0.0098
+                   rew_orientation: -0.5263
+                       rew_torques: -0.0057
+              rew_tracking_ang_vel: 0.0070
+rew_tracking_contacts_shaped_force: -0.0185
+  rew_tracking_contacts_shaped_vel: -0.0582
+--------------------------------------------------------------------------------
+                   Total timesteps: 264000
+                    Iteration time: 3.40s
+                        Total time: 37.85s
+                               ETA: 51581.9s
+
+################################################################################
+                     [1m Learning iteration 11/15000 [0m
+
+                       Computation: 7018 steps/s (collection: 3.293s, learning 0.126s)
+               Value function loss: 0.7240
+                    Surrogate loss: -0.0030
+             Mean action noise std: 0.9913
+                     Learning rate: 0.0044
+                       Mean reward: -11.56
+               Mean episode length: 50.81
+                   rew_action_rate: -0.0070
+                 rew_action_smooth: -0.0209
+                    rew_ang_vel_xy: -0.0269
+                   rew_base_height: -0.0877
+                     rew_collision: -0.0060
+                       rew_dof_acc: -0.0032
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0444
+               rew_feet_regulation: -0.0131
+              rew_foot_landing_vel: -0.0136
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0597
+                     rew_lin_vel_z: -0.0085
+                   rew_orientation: -0.4219
+                       rew_torques: -0.0043
+              rew_tracking_ang_vel: 0.0044
+rew_tracking_contacts_shaped_force: -0.0133
+  rew_tracking_contacts_shaped_vel: -0.0481
+--------------------------------------------------------------------------------
+                   Total timesteps: 288000
+                    Iteration time: 3.42s
+                        Total time: 41.27s
+                               ETA: 51551.6s
+
+################################################################################
+                     [1m Learning iteration 12/15000 [0m
+
+                       Computation: 7081 steps/s (collection: 3.272s, learning 0.117s)
+               Value function loss: 0.8352
+                    Surrogate loss: -0.0040
+             Mean action noise std: 0.9883
+                     Learning rate: 0.0100
+                       Mean reward: -12.03
+               Mean episode length: 55.87
+                   rew_action_rate: -0.0064
+                 rew_action_smooth: -0.0189
+                    rew_ang_vel_xy: -0.0263
+                   rew_base_height: -0.0803
+                     rew_collision: -0.0071
+                       rew_dof_acc: -0.0028
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0389
+               rew_feet_regulation: -0.0068
+              rew_foot_landing_vel: -0.0132
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0542
+                     rew_lin_vel_z: -0.0079
+                   rew_orientation: -0.3758
+                       rew_torques: -0.0041
+              rew_tracking_ang_vel: 0.0038
+rew_tracking_contacts_shaped_force: -0.0127
+  rew_tracking_contacts_shaped_vel: -0.0436
+--------------------------------------------------------------------------------
+                   Total timesteps: 312000
+                    Iteration time: 3.39s
+                        Total time: 44.66s
+                               ETA: 51490.2s
+
+################################################################################
+                     [1m Learning iteration 13/15000 [0m
+
+                       Computation: 7025 steps/s (collection: 3.302s, learning 0.114s)
+               Value function loss: 0.8489
+                    Surrogate loss: -0.0055
+             Mean action noise std: 0.9838
+                     Learning rate: 0.0100
+                       Mean reward: -12.49
+               Mean episode length: 59.30
+                   rew_action_rate: -0.0066
+                 rew_action_smooth: -0.0196
+                    rew_ang_vel_xy: -0.0255
+                   rew_base_height: -0.0826
+                     rew_collision: -0.0077
+                       rew_dof_acc: -0.0029
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0427
+               rew_feet_regulation: -0.0051
+              rew_foot_landing_vel: -0.0133
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0566
+                     rew_lin_vel_z: -0.0079
+                   rew_orientation: -0.3861
+                       rew_torques: -0.0044
+              rew_tracking_ang_vel: 0.0039
+rew_tracking_contacts_shaped_force: -0.0146
+  rew_tracking_contacts_shaped_vel: -0.0437
+--------------------------------------------------------------------------------
+                   Total timesteps: 336000
+                    Iteration time: 3.42s
+                        Total time: 48.08s
+                               ETA: 51466.3s
+
+################################################################################
+                     [1m Learning iteration 14/15000 [0m
+
+                       Computation: 7058 steps/s (collection: 3.274s, learning 0.127s)
+               Value function loss: 0.8245
+                    Surrogate loss: -0.0056
+             Mean action noise std: 0.9808
+                     Learning rate: 0.0100
+                       Mean reward: -12.52
+               Mean episode length: 58.78
+                   rew_action_rate: -0.0068
+                 rew_action_smooth: -0.0203
+                    rew_ang_vel_xy: -0.0261
+                   rew_base_height: -0.0849
+                     rew_collision: -0.0076
+                       rew_dof_acc: -0.0030
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0460
+               rew_feet_regulation: -0.0065
+              rew_foot_landing_vel: -0.0166
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0588
+                     rew_lin_vel_z: -0.0080
+                   rew_orientation: -0.3978
+                       rew_torques: -0.0047
+              rew_tracking_ang_vel: 0.0038
+rew_tracking_contacts_shaped_force: -0.0158
+  rew_tracking_contacts_shaped_vel: -0.0448
+--------------------------------------------------------------------------------
+                   Total timesteps: 360000
+                    Iteration time: 3.40s
+                        Total time: 51.48s
+                               ETA: 51429.2s
+
+################################################################################
+                     [1m Learning iteration 15/15000 [0m
+
+                       Computation: 6998 steps/s (collection: 3.304s, learning 0.125s)
+               Value function loss: 0.7302
+                    Surrogate loss: 0.0004
+             Mean action noise std: 0.9864
+                     Learning rate: 0.0030
+                       Mean reward: -13.80
+               Mean episode length: 65.79
+                   rew_action_rate: -0.0073
+                 rew_action_smooth: -0.0217
+                    rew_ang_vel_xy: -0.0271
+                   rew_base_height: -0.0909
+                     rew_collision: -0.0085
+                       rew_dof_acc: -0.0032
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0438
+               rew_feet_regulation: -0.0081
+              rew_foot_landing_vel: -0.0137
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0635
+                     rew_lin_vel_z: -0.0083
+                   rew_orientation: -0.4283
+                       rew_torques: -0.0052
+              rew_tracking_ang_vel: 0.0042
+rew_tracking_contacts_shaped_force: -0.0173
+  rew_tracking_contacts_shaped_vel: -0.0478
+--------------------------------------------------------------------------------
+                   Total timesteps: 384000
+                    Iteration time: 3.43s
+                        Total time: 54.91s
+                               ETA: 51423.5s
+
+################################################################################
+                     [1m Learning iteration 16/15000 [0m
+
+                       Computation: 7096 steps/s (collection: 3.263s, learning 0.119s)
+               Value function loss: 0.6953
+                    Surrogate loss: -0.0007
+             Mean action noise std: 0.9852
+                     Learning rate: 0.0020
+                       Mean reward: -14.07
+               Mean episode length: 67.55
+                   rew_action_rate: -0.0076
+                 rew_action_smooth: -0.0227
+                    rew_ang_vel_xy: -0.0286
+                   rew_base_height: -0.0944
+                     rew_collision: -0.0093
+                       rew_dof_acc: -0.0032
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0487
+               rew_feet_regulation: -0.0062
+              rew_foot_landing_vel: -0.0161
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0664
+                     rew_lin_vel_z: -0.0084
+                   rew_orientation: -0.4464
+                       rew_torques: -0.0054
+              rew_tracking_ang_vel: 0.0044
+rew_tracking_contacts_shaped_force: -0.0185
+  rew_tracking_contacts_shaped_vel: -0.0490
+--------------------------------------------------------------------------------
+                   Total timesteps: 408000
+                    Iteration time: 3.38s
+                        Total time: 58.29s
+                               ETA: 51376.1s
+
+################################################################################
+                     [1m Learning iteration 17/15000 [0m
+
+                       Computation: 7008 steps/s (collection: 3.294s, learning 0.130s)
+               Value function loss: 0.6937
+                    Surrogate loss: -0.0033
+             Mean action noise std: 0.9862
+                     Learning rate: 0.0030
+                       Mean reward: -13.51
+               Mean episode length: 63.41
+                   rew_action_rate: -0.0074
+                 rew_action_smooth: -0.0218
+                    rew_ang_vel_xy: -0.0281
+                   rew_base_height: -0.0924
+                     rew_collision: -0.0082
+                       rew_dof_acc: -0.0033
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0486
+               rew_feet_regulation: -0.0077
+              rew_foot_landing_vel: -0.0155
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0643
+                     rew_lin_vel_z: -0.0084
+                   rew_orientation: -0.4405
+                       rew_torques: -0.0047
+              rew_tracking_ang_vel: 0.0040
+rew_tracking_contacts_shaped_force: -0.0165
+  rew_tracking_contacts_shaped_vel: -0.0493
+--------------------------------------------------------------------------------
+                   Total timesteps: 432000
+                    Iteration time: 3.42s
+                        Total time: 61.71s
+                               ETA: 51368.9s
+
+################################################################################
+                     [1m Learning iteration 18/15000 [0m
+
+                       Computation: 7025 steps/s (collection: 3.281s, learning 0.135s)
+               Value function loss: 0.7300
+                    Surrogate loss: -0.0022
+             Mean action noise std: 0.9891
+                     Learning rate: 0.0020
+                       Mean reward: -12.47
+               Mean episode length: 58.39
+                   rew_action_rate: -0.0069
+                 rew_action_smooth: -0.0203
+                    rew_ang_vel_xy: -0.0275
+                   rew_base_height: -0.0877
+                     rew_collision: -0.0088
+                       rew_dof_acc: -0.0031
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0422
+               rew_feet_regulation: -0.0054
+              rew_foot_landing_vel: -0.0148
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0601
+                     rew_lin_vel_z: -0.0080
+                   rew_orientation: -0.4146
+                       rew_torques: -0.0045
+              rew_tracking_ang_vel: 0.0035
+rew_tracking_contacts_shaped_force: -0.0148
+  rew_tracking_contacts_shaped_vel: -0.0473
+--------------------------------------------------------------------------------
+                   Total timesteps: 456000
+                    Iteration time: 3.42s
+                        Total time: 65.13s
+                               ETA: 51355.6s
+
+################################################################################
+                     [1m Learning iteration 19/15000 [0m
+
+                       Computation: 7022 steps/s (collection: 3.276s, learning 0.142s)
+               Value function loss: 0.8482
+                    Surrogate loss: -0.0052
+             Mean action noise std: 0.9902
+                     Learning rate: 0.0044
+                       Mean reward: -12.06
+               Mean episode length: 57.87
+                   rew_action_rate: -0.0067
+                 rew_action_smooth: -0.0198
+                    rew_ang_vel_xy: -0.0269
+                   rew_base_height: -0.0853
+                     rew_collision: -0.0076
+                       rew_dof_acc: -0.0030
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0399
+               rew_feet_regulation: -0.0060
+              rew_foot_landing_vel: -0.0136
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0582
+                     rew_lin_vel_z: -0.0081
+                   rew_orientation: -0.4005
+                       rew_torques: -0.0043
+              rew_tracking_ang_vel: 0.0038
+rew_tracking_contacts_shaped_force: -0.0142
+  rew_tracking_contacts_shaped_vel: -0.0457
+--------------------------------------------------------------------------------
+                   Total timesteps: 480000
+                    Iteration time: 3.42s
+                        Total time: 68.55s
+                               ETA: 51344.5s
+
+################################################################################
+                     [1m Learning iteration 20/15000 [0m
+
+                       Computation: 6990 steps/s (collection: 3.297s, learning 0.137s)
+               Value function loss: 0.9764
+                    Surrogate loss: -0.0024
+             Mean action noise std: 0.9889
+                     Learning rate: 0.0013
+                       Mean reward: -12.68
+               Mean episode length: 60.50
+                   rew_action_rate: -0.0067
+                 rew_action_smooth: -0.0198
+                    rew_ang_vel_xy: -0.0263
+                   rew_base_height: -0.0846
+                     rew_collision: -0.0080
+                       rew_dof_acc: -0.0029
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0374
+               rew_feet_regulation: -0.0060
+              rew_foot_landing_vel: -0.0148
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0581
+                     rew_lin_vel_z: -0.0083
+                   rew_orientation: -0.3955
+                       rew_torques: -0.0044
+              rew_tracking_ang_vel: 0.0037
+rew_tracking_contacts_shaped_force: -0.0148
+  rew_tracking_contacts_shaped_vel: -0.0445
+--------------------------------------------------------------------------------
+                   Total timesteps: 504000
+                    Iteration time: 3.43s
+                        Total time: 71.98s
+                               ETA: 51345.5s
+
+################################################################################
+                     [1m Learning iteration 21/15000 [0m
+
+                       Computation: 7031 steps/s (collection: 3.287s, learning 0.126s)
+               Value function loss: 0.9269
+                    Surrogate loss: -0.0055
+             Mean action noise std: 0.9888
+                     Learning rate: 0.0044
+                       Mean reward: -13.04
+               Mean episode length: 61.86
+                   rew_action_rate: -0.0068
+                 rew_action_smooth: -0.0202
+                    rew_ang_vel_xy: -0.0266
+                   rew_base_height: -0.0862
+                     rew_collision: -0.0091
+                       rew_dof_acc: -0.0031
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0400
+               rew_feet_regulation: -0.0060
+              rew_foot_landing_vel: -0.0141
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0598
+                     rew_lin_vel_z: -0.0085
+                   rew_orientation: -0.4017
+                       rew_torques: -0.0048
+              rew_tracking_ang_vel: 0.0035
+rew_tracking_contacts_shaped_force: -0.0157
+  rew_tracking_contacts_shaped_vel: -0.0453
+--------------------------------------------------------------------------------
+                   Total timesteps: 528000
+                    Iteration time: 3.41s
+                        Total time: 75.39s
+                               ETA: 51332.4s
+
+################################################################################
+                     [1m Learning iteration 22/15000 [0m
+
+                       Computation: 7017 steps/s (collection: 3.289s, learning 0.131s)
+               Value function loss: 0.8917
+                    Surrogate loss: -0.0041
+             Mean action noise std: 0.9920
+                     Learning rate: 0.0030
+                       Mean reward: -12.50
+               Mean episode length: 61.14
+                   rew_action_rate: -0.0070
+                 rew_action_smooth: -0.0207
+                    rew_ang_vel_xy: -0.0271
+                   rew_base_height: -0.0879
+                     rew_collision: -0.0080
+                       rew_dof_acc: -0.0031
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0401
+               rew_feet_regulation: -0.0066
+              rew_foot_landing_vel: -0.0150
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0612
+                     rew_lin_vel_z: -0.0085
+                   rew_orientation: -0.4086
+                       rew_torques: -0.0047
+              rew_tracking_ang_vel: 0.0041
+rew_tracking_contacts_shaped_force: -0.0163
+  rew_tracking_contacts_shaped_vel: -0.0464
+--------------------------------------------------------------------------------
+                   Total timesteps: 552000
+                    Iteration time: 3.42s
+                        Total time: 78.81s
+                               ETA: 51324.3s
+
+################################################################################
+                     [1m Learning iteration 23/15000 [0m
+
+                       Computation: 7025 steps/s (collection: 3.291s, learning 0.125s)
+               Value function loss: 0.8266
+                    Surrogate loss: -0.0012
+             Mean action noise std: 0.9935
+                     Learning rate: 0.0013
+                       Mean reward: -12.49
+               Mean episode length: 60.94
+                   rew_action_rate: -0.0071
+                 rew_action_smooth: -0.0210
+                    rew_ang_vel_xy: -0.0266
+                   rew_base_height: -0.0887
+                     rew_collision: -0.0077
+                       rew_dof_acc: -0.0031
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0383
+               rew_feet_regulation: -0.0073
+              rew_foot_landing_vel: -0.0121
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0620
+                     rew_lin_vel_z: -0.0088
+                   rew_orientation: -0.4166
+                       rew_torques: -0.0051
+              rew_tracking_ang_vel: 0.0041
+rew_tracking_contacts_shaped_force: -0.0162
+  rew_tracking_contacts_shaped_vel: -0.0471
+--------------------------------------------------------------------------------
+                   Total timesteps: 576000
+                    Iteration time: 3.42s
+                        Total time: 82.23s
+                               ETA: 51314.4s
+
+################################################################################
+                     [1m Learning iteration 24/15000 [0m
+
+                       Computation: 7035 steps/s (collection: 3.293s, learning 0.118s)
+               Value function loss: 0.8505
+                    Surrogate loss: -0.0043
+             Mean action noise std: 0.9919
+                     Learning rate: 0.0030
+                       Mean reward: -12.95
+               Mean episode length: 61.64
+                   rew_action_rate: -0.0071
+                 rew_action_smooth: -0.0209
+                    rew_ang_vel_xy: -0.0268
+                   rew_base_height: -0.0892
+                     rew_collision: -0.0083
+                       rew_dof_acc: -0.0032
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0394
+               rew_feet_regulation: -0.0078
+              rew_foot_landing_vel: -0.0140
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0614
+                     rew_lin_vel_z: -0.0087
+                   rew_orientation: -0.4170
+                       rew_torques: -0.0046
+              rew_tracking_ang_vel: 0.0039
+rew_tracking_contacts_shaped_force: -0.0147
+  rew_tracking_contacts_shaped_vel: -0.0477
+--------------------------------------------------------------------------------
+                   Total timesteps: 600000
+                    Iteration time: 3.41s
+                        Total time: 85.64s
+                               ETA: 51301.9s
+
+################################################################################
+                     [1m Learning iteration 25/15000 [0m
+
+                       Computation: 7010 steps/s (collection: 3.293s, learning 0.131s)
+               Value function loss: 0.8959
+                    Surrogate loss: -0.0051
+             Mean action noise std: 0.9880
+                     Learning rate: 0.0030
+                       Mean reward: -12.49
+               Mean episode length: 60.63
+                   rew_action_rate: -0.0068
+                 rew_action_smooth: -0.0203
+                    rew_ang_vel_xy: -0.0265
+                   rew_base_height: -0.0863
+                     rew_collision: -0.0078
+                       rew_dof_acc: -0.0031
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0371
+               rew_feet_regulation: -0.0078
+              rew_foot_landing_vel: -0.0144
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0597
+                     rew_lin_vel_z: -0.0082
+                   rew_orientation: -0.3966
+                       rew_torques: -0.0046
+              rew_tracking_ang_vel: 0.0037
+rew_tracking_contacts_shaped_force: -0.0152
+  rew_tracking_contacts_shaped_vel: -0.0458
+--------------------------------------------------------------------------------
+                   Total timesteps: 624000
+                    Iteration time: 3.42s
+                        Total time: 89.06s
+                               ETA: 51297.3s
+
+################################################################################
+                     [1m Learning iteration 26/15000 [0m
+
+                       Computation: 7024 steps/s (collection: 3.301s, learning 0.116s)
+               Value function loss: 0.9683
+                    Surrogate loss: -0.0053
+             Mean action noise std: 0.9845
+                     Learning rate: 0.0044
+                       Mean reward: -12.09
+               Mean episode length: 58.37
+                   rew_action_rate: -0.0069
+                 rew_action_smooth: -0.0204
+                    rew_ang_vel_xy: -0.0266
+                   rew_base_height: -0.0871
+                     rew_collision: -0.0087
+                       rew_dof_acc: -0.0031
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0401
+               rew_feet_regulation: -0.0050
+              rew_foot_landing_vel: -0.0147
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0601
+                     rew_lin_vel_z: -0.0086
+                   rew_orientation: -0.4005
+                       rew_torques: -0.0046
+              rew_tracking_ang_vel: 0.0038
+rew_tracking_contacts_shaped_force: -0.0147
+  rew_tracking_contacts_shaped_vel: -0.0467
+--------------------------------------------------------------------------------
+                   Total timesteps: 648000
+                    Iteration time: 3.42s
+                        Total time: 92.48s
+                               ETA: 51288.9s
+
+################################################################################
+                     [1m Learning iteration 27/15000 [0m
+
+                       Computation: 7065 steps/s (collection: 3.278s, learning 0.119s)
+               Value function loss: 1.0205
+                    Surrogate loss: -0.0042
+             Mean action noise std: 0.9852
+                     Learning rate: 0.0030
+                       Mean reward: -12.32
+               Mean episode length: 61.01
+                   rew_action_rate: -0.0069
+                 rew_action_smooth: -0.0203
+                    rew_ang_vel_xy: -0.0260
+                   rew_base_height: -0.0865
+                     rew_collision: -0.0084
+                       rew_dof_acc: -0.0031
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0330
+               rew_feet_regulation: -0.0064
+              rew_foot_landing_vel: -0.0137
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0599
+                     rew_lin_vel_z: -0.0086
+                   rew_orientation: -0.3958
+                       rew_torques: -0.0045
+              rew_tracking_ang_vel: 0.0038
+rew_tracking_contacts_shaped_force: -0.0150
+  rew_tracking_contacts_shaped_vel: -0.0463
+--------------------------------------------------------------------------------
+                   Total timesteps: 672000
+                    Iteration time: 3.40s
+                        Total time: 95.88s
+                               ETA: 51270.3s
+
+################################################################################
+                     [1m Learning iteration 28/15000 [0m
+
+                       Computation: 7051 steps/s (collection: 3.285s, learning 0.118s)
+               Value function loss: 1.0199
+                    Surrogate loss: -0.0030
+             Mean action noise std: 0.9845
+                     Learning rate: 0.0009
+                       Mean reward: -12.05
+               Mean episode length: 60.57
+                   rew_action_rate: -0.0069
+                 rew_action_smooth: -0.0204
+                    rew_ang_vel_xy: -0.0259
+                   rew_base_height: -0.0861
+                     rew_collision: -0.0079
+                       rew_dof_acc: -0.0031
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0322
+               rew_feet_regulation: -0.0062
+              rew_foot_landing_vel: -0.0149
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0601
+                     rew_lin_vel_z: -0.0090
+                   rew_orientation: -0.3919
+                       rew_torques: -0.0046
+              rew_tracking_ang_vel: 0.0037
+rew_tracking_contacts_shaped_force: -0.0148
+  rew_tracking_contacts_shaped_vel: -0.0460
+--------------------------------------------------------------------------------
+                   Total timesteps: 696000
+                    Iteration time: 3.40s
+                        Total time: 99.28s
+                               ETA: 51256.2s
+
+################################################################################
+                     [1m Learning iteration 29/15000 [0m
+
+                       Computation: 7051 steps/s (collection: 3.287s, learning 0.116s)
+               Value function loss: 0.9474
+                    Surrogate loss: -0.0056
+             Mean action noise std: 0.9865
+                     Learning rate: 0.0009
+                       Mean reward: -12.47
+               Mean episode length: 62.12
+                   rew_action_rate: -0.0071
+                 rew_action_smooth: -0.0209
+                    rew_ang_vel_xy: -0.0258
+                   rew_base_height: -0.0884
+                     rew_collision: -0.0087
+                       rew_dof_acc: -0.0032
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0355
+               rew_feet_regulation: -0.0071
+              rew_foot_landing_vel: -0.0148
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0619
+                     rew_lin_vel_z: -0.0087
+                   rew_orientation: -0.4035
+                       rew_torques: -0.0049
+              rew_tracking_ang_vel: 0.0040
+rew_tracking_contacts_shaped_force: -0.0161
+  rew_tracking_contacts_shaped_vel: -0.0469
+--------------------------------------------------------------------------------
+                   Total timesteps: 720000
+                    Iteration time: 3.40s
+                        Total time: 102.68s
+                               ETA: 51242.9s
+
+################################################################################
+                     [1m Learning iteration 30/15000 [0m
+
+                       Computation: 7048 steps/s (collection: 3.284s, learning 0.121s)
+               Value function loss: 0.9786
+                    Surrogate loss: -0.0042
+             Mean action noise std: 0.9860
+                     Learning rate: 0.0009
+                       Mean reward: -12.69
+               Mean episode length: 63.59
+                   rew_action_rate: -0.0071
+                 rew_action_smooth: -0.0211
+                    rew_ang_vel_xy: -0.0269
+                   rew_base_height: -0.0899
+                     rew_collision: -0.0086
+                       rew_dof_acc: -0.0033
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0407
+               rew_feet_regulation: -0.0077
+              rew_foot_landing_vel: -0.0144
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0628
+                     rew_lin_vel_z: -0.0099
+                   rew_orientation: -0.4137
+                       rew_torques: -0.0047
+              rew_tracking_ang_vel: 0.0039
+rew_tracking_contacts_shaped_force: -0.0148
+  rew_tracking_contacts_shaped_vel: -0.0488
+--------------------------------------------------------------------------------
+                   Total timesteps: 744000
+                    Iteration time: 3.41s
+                        Total time: 106.09s
+                               ETA: 51230.9s
+
+################################################################################
+                     [1m Learning iteration 31/15000 [0m
+
+                       Computation: 7067 steps/s (collection: 3.282s, learning 0.114s)
+               Value function loss: 0.9090
+                    Surrogate loss: -0.0064
+             Mean action noise std: 0.9867
+                     Learning rate: 0.0020
+                       Mean reward: -12.97
+               Mean episode length: 62.60
+                   rew_action_rate: -0.0071
+                 rew_action_smooth: -0.0209
+                    rew_ang_vel_xy: -0.0259
+                   rew_base_height: -0.0895
+                     rew_collision: -0.0096
+                       rew_dof_acc: -0.0034
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0397
+               rew_feet_regulation: -0.0058
+              rew_foot_landing_vel: -0.0189
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0625
+                     rew_lin_vel_z: -0.0092
+                   rew_orientation: -0.4061
+                       rew_torques: -0.0050
+              rew_tracking_ang_vel: 0.0040
+rew_tracking_contacts_shaped_force: -0.0154
+  rew_tracking_contacts_shaped_vel: -0.0480
+--------------------------------------------------------------------------------
+                   Total timesteps: 768000
+                    Iteration time: 3.40s
+                        Total time: 109.48s
+                               ETA: 51215.0s
+
+################################################################################
+                     [1m Learning iteration 32/15000 [0m
+
+                       Computation: 7049 steps/s (collection: 3.292s, learning 0.113s)
+               Value function loss: 0.9681
+                    Surrogate loss: -0.0044
+             Mean action noise std: 0.9874
+                     Learning rate: 0.0006
+                       Mean reward: -12.98
+               Mean episode length: 63.49
+                   rew_action_rate: -0.0071
+                 rew_action_smooth: -0.0209
+                    rew_ang_vel_xy: -0.0262
+                   rew_base_height: -0.0896
+                     rew_collision: -0.0082
+                       rew_dof_acc: -0.0033
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0417
+               rew_feet_regulation: -0.0083
+              rew_foot_landing_vel: -0.0178
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0626
+                     rew_lin_vel_z: -0.0093
+                   rew_orientation: -0.4061
+                       rew_torques: -0.0049
+              rew_tracking_ang_vel: 0.0037
+rew_tracking_contacts_shaped_force: -0.0155
+  rew_tracking_contacts_shaped_vel: -0.0478
+--------------------------------------------------------------------------------
+                   Total timesteps: 792000
+                    Iteration time: 3.40s
+                        Total time: 112.89s
+                               ETA: 51203.9s
+
+################################################################################
+                     [1m Learning iteration 33/15000 [0m
+
+                       Computation: 7065 steps/s (collection: 3.282s, learning 0.115s)
+               Value function loss: 1.0855
+                    Surrogate loss: -0.0088
+             Mean action noise std: 0.9853
+                     Learning rate: 0.0020
+                       Mean reward: -12.46
+               Mean episode length: 62.01
+                   rew_action_rate: -0.0070
+                 rew_action_smooth: -0.0207
+                    rew_ang_vel_xy: -0.0265
+                   rew_base_height: -0.0887
+                     rew_collision: -0.0086
+                       rew_dof_acc: -0.0034
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0414
+               rew_feet_regulation: -0.0073
+              rew_foot_landing_vel: -0.0151
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0620
+                     rew_lin_vel_z: -0.0096
+                   rew_orientation: -0.4037
+                       rew_torques: -0.0046
+              rew_tracking_ang_vel: 0.0039
+rew_tracking_contacts_shaped_force: -0.0146
+  rew_tracking_contacts_shaped_vel: -0.0487
+--------------------------------------------------------------------------------
+                   Total timesteps: 816000
+                    Iteration time: 3.40s
+                        Total time: 116.29s
+                               ETA: 51189.8s
+
+################################################################################
+                     [1m Learning iteration 34/15000 [0m
+
+                       Computation: 7073 steps/s (collection: 3.277s, learning 0.116s)
+               Value function loss: 1.0657
+                    Surrogate loss: -0.0078
+             Mean action noise std: 0.9884
+                     Learning rate: 0.0020
+                       Mean reward: -12.85
+               Mean episode length: 64.37
+                   rew_action_rate: -0.0071
+                 rew_action_smooth: -0.0208
+                    rew_ang_vel_xy: -0.0258
+                   rew_base_height: -0.0896
+                     rew_collision: -0.0087
+                       rew_dof_acc: -0.0032
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0364
+               rew_feet_regulation: -0.0058
+              rew_foot_landing_vel: -0.0206
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0623
+                     rew_lin_vel_z: -0.0094
+                   rew_orientation: -0.4060
+                       rew_torques: -0.0045
+              rew_tracking_ang_vel: 0.0040
+rew_tracking_contacts_shaped_force: -0.0152
+  rew_tracking_contacts_shaped_vel: -0.0482
+--------------------------------------------------------------------------------
+                   Total timesteps: 840000
+                    Iteration time: 3.39s
+                        Total time: 119.68s
+                               ETA: 51174.8s
+
+################################################################################
+                     [1m Learning iteration 35/15000 [0m
+
+                       Computation: 7063 steps/s (collection: 3.283s, learning 0.114s)
+               Value function loss: 1.1356
+                    Surrogate loss: -0.0062
+             Mean action noise std: 0.9902
+                     Learning rate: 0.0020
+                       Mean reward: -12.25
+               Mean episode length: 61.00
+                   rew_action_rate: -0.0070
+                 rew_action_smooth: -0.0206
+                    rew_ang_vel_xy: -0.0260
+                   rew_base_height: -0.0889
+                     rew_collision: -0.0087
+                       rew_dof_acc: -0.0034
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0365
+               rew_feet_regulation: -0.0075
+              rew_foot_landing_vel: -0.0154
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0623
+                     rew_lin_vel_z: -0.0091
+                   rew_orientation: -0.4024
+                       rew_torques: -0.0045
+              rew_tracking_ang_vel: 0.0038
+rew_tracking_contacts_shaped_force: -0.0149
+  rew_tracking_contacts_shaped_vel: -0.0486
+--------------------------------------------------------------------------------
+                   Total timesteps: 864000
+                    Iteration time: 3.40s
+                        Total time: 123.08s
+                               ETA: 51162.3s
+
+################################################################################
+                     [1m Learning iteration 36/15000 [0m
+
+                       Computation: 7081 steps/s (collection: 3.277s, learning 0.113s)
+               Value function loss: 1.1754
+                    Surrogate loss: -0.0099
+             Mean action noise std: 0.9947
+                     Learning rate: 0.0030
+                       Mean reward: -13.07
+               Mean episode length: 65.31
+                   rew_action_rate: -0.0072
+                 rew_action_smooth: -0.0212
+                    rew_ang_vel_xy: -0.0262
+                   rew_base_height: -0.0894
+                     rew_collision: -0.0088
+                       rew_dof_acc: -0.0034
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0394
+               rew_feet_regulation: -0.0062
+              rew_foot_landing_vel: -0.0193
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0632
+                     rew_lin_vel_z: -0.0093
+                   rew_orientation: -0.4041
+                       rew_torques: -0.0048
+              rew_tracking_ang_vel: 0.0038
+rew_tracking_contacts_shaped_force: -0.0159
+  rew_tracking_contacts_shaped_vel: -0.0483
+--------------------------------------------------------------------------------
+                   Total timesteps: 888000
+                    Iteration time: 3.39s
+                        Total time: 126.47s
+                               ETA: 51147.0s
+
+################################################################################
+                     [1m Learning iteration 37/15000 [0m
+
+                       Computation: 7082 steps/s (collection: 3.273s, learning 0.115s)
+               Value function loss: 1.0846
+                    Surrogate loss: -0.0079
+             Mean action noise std: 0.9949
+                     Learning rate: 0.0013
+                       Mean reward: -12.70
+               Mean episode length: 63.61
+                   rew_action_rate: -0.0072
+                 rew_action_smooth: -0.0210
+                    rew_ang_vel_xy: -0.0259
+                   rew_base_height: -0.0893
+                     rew_collision: -0.0081
+                       rew_dof_acc: -0.0034
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0379
+               rew_feet_regulation: -0.0067
+              rew_foot_landing_vel: -0.0149
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0633
+                     rew_lin_vel_z: -0.0090
+                   rew_orientation: -0.4012
+                       rew_torques: -0.0047
+              rew_tracking_ang_vel: 0.0037
+rew_tracking_contacts_shaped_force: -0.0158
+  rew_tracking_contacts_shaped_vel: -0.0488
+--------------------------------------------------------------------------------
+                   Total timesteps: 912000
+                    Iteration time: 3.39s
+                        Total time: 129.85s
+                               ETA: 51131.9s
+
+################################################################################
+                     [1m Learning iteration 38/15000 [0m
+
+                       Computation: 7019 steps/s (collection: 3.285s, learning 0.133s)
+               Value function loss: 1.1143
+                    Surrogate loss: -0.0088
+             Mean action noise std: 0.9922
+                     Learning rate: 0.0020
+                       Mean reward: -12.50
+               Mean episode length: 62.91
+                   rew_action_rate: -0.0074
+                 rew_action_smooth: -0.0217
+                    rew_ang_vel_xy: -0.0264
+                   rew_base_height: -0.0911
+                     rew_collision: -0.0085
+                       rew_dof_acc: -0.0036
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0379
+               rew_feet_regulation: -0.0087
+              rew_foot_landing_vel: -0.0178
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0647
+                     rew_lin_vel_z: -0.0097
+                   rew_orientation: -0.4131
+                       rew_torques: -0.0049
+              rew_tracking_ang_vel: 0.0042
+rew_tracking_contacts_shaped_force: -0.0160
+  rew_tracking_contacts_shaped_vel: -0.0498
+--------------------------------------------------------------------------------
+                   Total timesteps: 936000
+                    Iteration time: 3.42s
+                        Total time: 133.27s
+                               ETA: 51129.2s
+
+################################################################################
+                     [1m Learning iteration 39/15000 [0m
+
+                       Computation: 7063 steps/s (collection: 3.284s, learning 0.114s)
+               Value function loss: 1.0752
+                    Surrogate loss: -0.0073
+             Mean action noise std: 0.9937
+                     Learning rate: 0.0020
+                       Mean reward: -12.82
+               Mean episode length: 63.95
+                   rew_action_rate: -0.0072
+                 rew_action_smooth: -0.0212
+                    rew_ang_vel_xy: -0.0267
+                   rew_base_height: -0.0893
+                     rew_collision: -0.0095
+                       rew_dof_acc: -0.0034
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0390
+               rew_feet_regulation: -0.0087
+              rew_foot_landing_vel: -0.0140
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0632
+                     rew_lin_vel_z: -0.0096
+                   rew_orientation: -0.4029
+                       rew_torques: -0.0047
+              rew_tracking_ang_vel: 0.0040
+rew_tracking_contacts_shaped_force: -0.0156
+  rew_tracking_contacts_shaped_vel: -0.0488
+--------------------------------------------------------------------------------
+                   Total timesteps: 960000
+                    Iteration time: 3.40s
+                        Total time: 136.67s
+                               ETA: 51118.4s
+
+################################################################################
+                     [1m Learning iteration 40/15000 [0m
+
+                       Computation: 7066 steps/s (collection: 3.271s, learning 0.125s)
+               Value function loss: 1.0672
+                    Surrogate loss: -0.0085
+             Mean action noise std: 0.9925
+                     Learning rate: 0.0020
+                       Mean reward: -12.10
+               Mean episode length: 59.82
+                   rew_action_rate: -0.0072
+                 rew_action_smooth: -0.0213
+                    rew_ang_vel_xy: -0.0267
+                   rew_base_height: -0.0895
+                     rew_collision: -0.0096
+                       rew_dof_acc: -0.0034
+                rew_dof_pos_limits: -0.0002
+                 rew_feet_distance: -0.0394
+               rew_feet_regulation: -0.0070
+              rew_foot_landing_vel: -0.0154
+                   rew_jump_height: 0.0000
+                  rew_keep_balance: 0.0630
+                     rew_lin_vel_z: -0.0091
+                   rew_orientation: -0.4039
+                       rew_torques: -0.0047
+              rew_tracking_ang_vel: 0.0040
+rew_tracking_contacts_shaped_force: -0.0157
+  rew_tracking_contacts_shaped_vel: -0.0489
+--------------------------------------------------------------------------------
+                   Total timesteps: 984000
+                    Iteration time: 3.40s
+                        Total time: 140.07s
+                               ETA: 51107.6s
+Traceback (most recent call last):
+  File "legged_gym/scripts/train.py", line 57, in <module>
+    storage = train(args)
+  File "legged_gym/scripts/train.py", line 48, in train
+    ppo_runner.learn(
+  File "/workspace/limx_rl/pointfoot-legged-gym/legged_gym/algorithm/on_policy_runner.py", line 164, in learn
+    (obs, rewards, dones, infos, obs_history, commands, critic_obs_buf) = self.env.step(actions)
+  File "/workspace/limx_rl/pointfoot-legged-gym/legged_gym/envs/pointfoot_jump/pointfoot_jump.py", line 68, in step
+    self.render()
+  File "/workspace/limx_rl/pointfoot-legged-gym/legged_gym/envs/base/base_task.py", line 181, in render
+    self.gym.draw_viewer(self.viewer, self.sim, True)
+KeyboardInterrupt

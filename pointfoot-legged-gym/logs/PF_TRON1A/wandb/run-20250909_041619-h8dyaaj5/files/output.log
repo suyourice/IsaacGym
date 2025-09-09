@@ -1,0 +1,112 @@
+################################################################################
+                      [1m Learning iteration 0/15000 [0m
+
+                       Computation: 7371 steps/s (collection: 17.270s, learning 0.512s)
+               Value function loss: 0.2708
+                    Surrogate loss: 0.0115
+             Mean action noise std: 0.9945
+                     Learning rate: 0.0023
+                       Mean reward: -0.43
+               Mean episode length: 10.11
+                   rew_action_rate: -0.0009
+                 rew_action_smooth: -0.0026
+                    rew_ang_vel_xy: -0.0035
+                   rew_base_height: -0.0001
+                     rew_collision: -0.0004
+                       rew_dof_acc: -0.0003
+                rew_dof_pos_limits: -0.0000
+                 rew_feet_distance: -0.0021
+               rew_feet_regulation: -0.0154
+              rew_foot_landing_vel: -0.0006
+                  rew_keep_balance: 0.0094
+                     rew_lin_vel_z: -0.0012
+                   rew_orientation: -0.0077
+                       rew_torques: -0.0009
+              rew_tracking_ang_vel: 0.0016
+rew_tracking_contacts_shaped_force: -0.0056
+  rew_tracking_contacts_shaped_vel: -0.0051
+              rew_tracking_lin_vel: 0.0022
+--------------------------------------------------------------------------------
+                   Total timesteps: 131072
+                    Iteration time: 17.78s
+                        Total time: 17.78s
+                               ETA: 266729.3s
+[34m[1mwandb[0m: [33mWARNING[0m Tried to log to step 0 that is less than the current step 1. Steps must be monotonically increasing, so this data will be ignored. See https://wandb.me/define-metric to log data out of order.
+
+################################################################################
+                      [1m Learning iteration 1/15000 [0m
+
+                       Computation: 7474 steps/s (collection: 17.186s, learning 0.349s)
+               Value function loss: 1.9104
+                    Surrogate loss: 0.0058
+             Mean action noise std: 0.9953
+                     Learning rate: 0.0023
+                       Mean reward: -3.17
+               Mean episode length: 26.81
+                   rew_action_rate: -0.0029
+                 rew_action_smooth: -0.0085
+                    rew_ang_vel_xy: -0.0153
+                   rew_base_height: -0.0023
+                     rew_collision: -0.0014
+                       rew_dof_acc: -0.0009
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0112
+               rew_feet_regulation: -0.0217
+              rew_foot_landing_vel: -0.0007
+                  rew_keep_balance: 0.0255
+                     rew_lin_vel_z: -0.0037
+                   rew_orientation: -0.0883
+                       rew_torques: -0.0028
+              rew_tracking_ang_vel: 0.0036
+rew_tracking_contacts_shaped_force: -0.0135
+  rew_tracking_contacts_shaped_vel: -0.0149
+              rew_tracking_lin_vel: 0.0032
+--------------------------------------------------------------------------------
+                   Total timesteps: 262144
+                    Iteration time: 17.54s
+                        Total time: 35.32s
+                               ETA: 264860.6s
+
+################################################################################
+                      [1m Learning iteration 2/15000 [0m
+
+                       Computation: 7443 steps/s (collection: 17.260s, learning 0.349s)
+               Value function loss: 2.2148
+                    Surrogate loss: 0.0027
+             Mean action noise std: 0.9963
+                     Learning rate: 0.0076
+                       Mean reward: -9.29
+               Mean episode length: 48.00
+                   rew_action_rate: -0.0049
+                 rew_action_smooth: -0.0144
+                    rew_ang_vel_xy: -0.0250
+                   rew_base_height: -0.0110
+                     rew_collision: -0.0034
+                       rew_dof_acc: -0.0021
+                rew_dof_pos_limits: -0.0001
+                 rew_feet_distance: -0.0352
+               rew_feet_regulation: -0.0166
+              rew_foot_landing_vel: -0.0013
+                  rew_keep_balance: 0.0415
+                     rew_lin_vel_z: -0.0072
+                   rew_orientation: -0.2645
+                       rew_torques: -0.0032
+              rew_tracking_ang_vel: 0.0047
+rew_tracking_contacts_shaped_force: -0.0105
+  rew_tracking_contacts_shaped_vel: -0.0330
+              rew_tracking_lin_vel: 0.0080
+--------------------------------------------------------------------------------
+                   Total timesteps: 393216
+                    Iteration time: 17.61s
+                        Total time: 52.93s
+                               ETA: 264598.0s
+Traceback (most recent call last):
+  File "legged_gym/scripts/train.py", line 57, in <module>
+    storage = train(args)
+  File "legged_gym/scripts/train.py", line 48, in train
+    ppo_runner.learn(
+  File "/workspace/limx_rl/pointfoot-legged-gym/legged_gym/algorithm/on_policy_runner.py", line 164, in learn
+    (obs, rewards, dones, infos, obs_history, commands, critic_obs_buf) = self.env.step(actions)
+  File "/workspace/limx_rl/pointfoot-legged-gym/legged_gym/envs/pointfoot_flat/pointfoot_flat.py", line 83, in step
+    self.gym.simulate(self.sim)
+KeyboardInterrupt

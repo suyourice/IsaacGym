@@ -1,0 +1,16 @@
+{"time":"2025-09-09T03:10:19.326474024Z","level":"INFO","msg":"stream: starting","core version":"0.21.3"}
+{"time":"2025-09-09T03:10:19.633139481Z","level":"INFO","msg":"stream: created new stream","id":"furbw7uh"}
+{"time":"2025-09-09T03:10:19.63317804Z","level":"INFO","msg":"stream: started","id":"furbw7uh"}
+{"time":"2025-09-09T03:10:19.63319397Z","level":"INFO","msg":"writer: started","stream_id":"furbw7uh"}
+{"time":"2025-09-09T03:10:19.63320763Z","level":"INFO","msg":"sender: started","stream_id":"furbw7uh"}
+{"time":"2025-09-09T03:10:19.633246559Z","level":"INFO","msg":"handler: started","stream_id":"furbw7uh"}
+{"time":"2025-09-09T03:10:19.774966863Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-09-09T03:10:19.775070571Z","level":"ERROR","msg":"runupserter: failed to init run","error":"returned error 404: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"entity your_wandb_username not found during upsertBucket\",\"path\":[\"upsertBucket\"]}]}"}
+{"time":"2025-09-09T03:10:19.81738527Z","level":"INFO","msg":"stream: closing","id":"furbw7uh"}
+{"time":"2025-09-09T03:10:19.817743875Z","level":"ERROR","msg":"sender: uploadConfigFile: stream: no run"}
+{"time":"2025-09-09T03:10:20.009939465Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-09-09T03:10:20.010016554Z","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"entity your_wandb_username not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-09-09T03:10:20.010163061Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-09T03:10:20.010189391Z","level":"INFO","msg":"handler: closed","stream_id":"furbw7uh"}
+{"time":"2025-09-09T03:10:20.01023787Z","level":"INFO","msg":"sender: closed","stream_id":"furbw7uh"}
+{"time":"2025-09-09T03:10:20.0102513Z","level":"INFO","msg":"stream: closed","id":"furbw7uh"}

@@ -1,0 +1,40 @@
+{
+  "os": "Linux-6.8.0-79-generic-x86_64-with-glibc2.17",
+  "python": "CPython 3.8.20",
+  "startedAt": "2025-09-09T11:51:16.467951Z",
+  "args": [
+    "--task=pointfoot_jump"
+  ],
+  "program": "legged_gym/scripts/train.py",
+  "codePath": "legged_gym/scripts/train.py",
+  "codePathLocal": "legged_gym/scripts/train.py",
+  "email": "suyourice@gmail.com",
+  "root": "/workspace/limx_rl/pointfoot-legged-gym/logs/jump",
+  "host": "eafb1f9c8f9e",
+  "username": "suyourice-technical-university-of-munich",
+  "executable": "/opt/conda/envs/pointfoot_legged_gym/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "539978293248",
+      "used": "111236460544"
+    }
+  },
+  "memory": {
+    "total": "33569173504"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4060 Ti",
+      "memoryTotal": "17175674880",
+      "cudaCores": 4352,
+      "architecture": "Ada",
+      "uuid": "GPU-0f3c7e6f-42d3-8d78-2a28-71fcf16cbea3"
+    }
+  ],
+  "cudaVersion": "12.4",
+  "writerId": "kg1ovvai7zbqqlkiixryqw1kqko1ku0z"
+}
