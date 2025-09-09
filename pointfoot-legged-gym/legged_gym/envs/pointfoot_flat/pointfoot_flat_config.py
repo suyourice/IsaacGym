@@ -35,7 +35,7 @@ robot_type = os.getenv("ROBOT_TYPE")
 
 class BipedCfgPF(BaseConfig):
     class env:
-        num_envs = 8192
+        num_envs = 4000 #8192
         num_observations = 30
         num_critic_observations = 3 + num_observations
         num_height_samples = 117
@@ -371,16 +371,16 @@ class BipedCfgPPOPF(BaseConfig):
         encoder_class_name = "MLP_Encoder"
         policy_class_name = "ActorCritic"
         algorithm_class_name = "PPO"
-        num_steps_per_env = 24  # per iteration
+        num_steps_per_env = 16  # per iteration
         max_iterations = 15000  # number of policy updates
 
         # logging
-        logger = "tensorboard"
-        exptid = ""
-        wandb_project = "legged_gym_PF"
+        logger = "both"         # enable both TensorbBoard and W&B
+        exptid = "PF_TRON1A"    # base run name
+        wandb_project = "IsaacGym_Tron" # project name in W&B
         save_interval = 500  # check for potential saves every this many iterations
         experiment_name = robot_type
-        run_name = ""
+        run_name = ""           # if you leave empty: exptid + timestamp
         # load and resume
         resume = False
         load_run = "-1"  # -1 = last run
